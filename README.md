@@ -1,19 +1,27 @@
-# diff-checker
+# Diff Checker
 
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white) ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB) ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
-
-> Side-by-side text diff with line-level change highlighting
+Side-by-side text diff with line-level change highlighting — paste two texts and see exactly what changed.
 
 ## Features
-- 📄 Line-by-line diff using edit distance algorithm
-- 🟢 Additions, 🔴 deletions, ⚪ unchanged lines
-- 📊 Summary: additions/deletions/unchanged count
-- 💡 Preloaded with a JS → TypeScript refactor example
-- 📋 Monospace line-numbered output
+
+- Side-by-side and unified diff views
+- Line-level highlighting: additions in green, deletions in red
+- Character-level diff within changed lines
+- Line numbers
+- Copy output button
+- Supports code, JSON, plain text — anything text-based
+
+## Stack
+
+![TypeScript](https://img.shields.io/badge/TypeScript-3178c6?style=flat&logo=typescript&logoColor=white)
+![React](https://img.shields.io/badge/React-61dafb?style=flat&logo=react&logoColor=black)
+![Vite](https://img.shields.io/badge/Vite-646cff?style=flat&logo=vite&logoColor=white)
+
+## Run locally
 
 ```bash
 npm install && npm run dev
 ```
 
-## License
-[MIT](LICENSE)
+---
+Made by [9bzero](https://github.com/9bzero)
